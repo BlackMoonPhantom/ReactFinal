@@ -68,7 +68,7 @@ const NoteCard = () => {
 
     <Modal isOpen={showModal} onRequestClose={handleCloseModal} className="modal">
         <div className="modal-content">
-            <h2>Alert</h2>
+            <h2>Thanks!</h2>
             <p>{modalContent}</p>
             <button onClick={handleCloseModal}>Close</button>
         </div>
